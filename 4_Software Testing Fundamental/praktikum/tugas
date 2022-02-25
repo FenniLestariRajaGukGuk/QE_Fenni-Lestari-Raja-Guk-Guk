@@ -1,0 +1,23 @@
+page 28
+    ditampilkan suatu data hascode yang telah dilakukan testing, yang mana terdapat 
+    istilah line coverage dan mutation coverage. data tersebut menunjukan hasil dari mutation 
+    testing. setiap perubahan pada line program disebut dengan mutan dan perubahan
+    pada program itu disebut mutasi, mutasi akan dimatikan jika menyebabkan 
+    kegagalan pada test case begitu juga sebaliknya selanjutnya apabila nilai coverage 
+    mutation 100% maka test case dianggap sudah cukup, namun apabila belum sampai 100% 
+    maka harus dilakukan sesuatu hal yang dapat membuat coverage mutation samapai 100%.
+    pada soal, diperoleh line coverage 100% yang berarti sudah berhasil dan mutation 
+    covarage 75% dimana mutants sebanyak 4 dari 3 yang gagal dan 1 yang berhasil, 
+    jadi masih perlu melakukan perubahan pada test case agar coverage mutation nya 100%
+
+
+page 29
+    soal ini merupakan cara agar coverage mutation dapat mencapai 100%.
+    diharuskan melakukan perubahan pada test case. pada gambar terlihat dilakukan
+    perubahan dari program yang berwarna hijau menjadi warna merah dengan tujuan agar
+    coverage mutation dapat maksimum sehingga dirubah test case menjadi salah
+    karena apabila salah maka mutan akan mati dan nilai coverage mutation yang awalnya
+    tidak mencapai 100% dapat mencapai 100%
+    sama dengan soal pertama jadi berarti jika awalnya nilai coverage mutation 75%
+    (3/4) maka setelah dilakukan perubahan pada test maka yang di inginkan adalah 
+    coverage mutation nya menjadi 100% (4/4)
