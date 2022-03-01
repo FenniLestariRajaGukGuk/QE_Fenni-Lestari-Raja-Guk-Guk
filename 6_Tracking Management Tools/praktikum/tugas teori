@@ -1,0 +1,26 @@
+TASK
+
+1. apa yang dimaksud dengan bugs?
+    # bugs adalah error atau kerusakan yang terjadi sehingga menyebabkan website atau software tidak 
+    berjalan dengan seharusnya. Ada beberapa kerusakan yang biasanya muncul, seperti hang atau freeze, 
+    blue screen, layar menjadi hitam, hingga tertutup dengan sendirinya
+
+2. apa yang dimaksud dengan "TO DO" pada JIRA?
+    # panel "TO DO" ini berisi tentang story yang akan dikerjakan dan sudah diprioritaskan saat planning. 
+    story yang paling atas berarti story yang paling diprioritaskan.
+
+3.  apa yang dimaksud dengan "IN PROGRESS" pada JIRA?
+    # panel "IN PROGRESS" ini berisi tentang story yang sedang dikerjakan oleh software engineer/developer. 
+
+4. apa perbedaan antara "Deliver" dan "Finish"?
+    # "Finish" berisi tentang story yang telah selesai dikerjakan para developer namun belum siap untuk 
+    tahap testing
+    "Deliver" berisi tentang story yang siap untuk memasuki tahap testing oleh para developer
+
+5. apa yang dimaksud dengan "EPIC" pada JIRA?
+    # epic pada issue JIRA ialah untuk melakukan pengelompokan TASK
+
+6. apa yang harus dilakukan saat menggunakan tools jira, jika kita menemukan bugs pada fitur yang sudah 
+dilakukan testing?
+    # 1. membuat issue bertipe bugs saat ditemukan ada yang tidak sesuai dengan kriteria testing
+      2. memindahkan fitur yang berkaitan dengan bugs ke kolom "In Progress"
