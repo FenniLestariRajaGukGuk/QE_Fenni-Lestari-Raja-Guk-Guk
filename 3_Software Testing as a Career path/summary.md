@@ -21,3 +21,16 @@ waktu & keterampilan organisasi, sikap dan semangat yang luar biasa
 
 6. sedangkan untuk keterampilan teknis terdiri dari pengetahuan dasar tentang perintah unix/linux, alat 
 manajemen tes, alat manajemen pelacakan dan alat pengujian otomatis
+
+jawaban untuk tugas section 3 pada slide materi ke-22
+
+langkah 1: isi botol 3L dan tuangkan ke dalam botol 5L,
+
+langkah 2: isi lagi botol 3L dan isi ke dalam botol 5L yang sama karena sudah berisi 3L jadi hanya 
+butuh 2L untuk mengisi jadi 1L ada di botol 3L.
+
+langkah 3: sekarang kosongkan botol 5L dan tuangkan 1L ke dalam botol 5L yang Anda miliki di botol 3L.
+
+langkah 4: sekarang isi sekali botol 3L penuh dan tuangkan ke dalam botol 5L yang sama.
+
+jadi total Anda memiliki 4L dalam botol 5L. 
