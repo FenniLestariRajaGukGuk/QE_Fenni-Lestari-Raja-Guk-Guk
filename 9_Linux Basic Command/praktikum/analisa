@@ -1,0 +1,25 @@
+penjelasan dari code-code yang digunakan pada tugas praktikum
+
+pwd (print working directory)
+>> untuk memberi tahu kita direktori mana yang sedang saya cari atau juga bisa dibilang di direktori mana saya berada
+
+ls (list contents of current directory)
+>> menunjukkan semua daftar yang ada pada direktori yang anda buka saat ini, sehingga direktori saat ini adalah direktori
+   disk local C yang berarti menunjukkan semua file dan folder yang ada didalam direktori lokal disk cari
+
+cd commands
+>> perintah cd digunakan untuk navigasi. misalnya saya ingin pergi ke folder fanni, maka saya akan ketik perintah cd fanni
+   yang mana saya akan berada di folder fanni. 
+
+cd ..
+>> perintah ini akan membawa saya keluar dari foler fanni dan kembali ke direktori awal, yaitu disk lokal C.
+   
+cd /
+>> perintah ini akan membawa saya ke direktori root. kemudian dilanjutkan dengan perintah ls dan akan menunjukkan
+   semua file dan folder yang ada pada root tersebut, yang mana direktori root memiliki lebih dari direktori pengguna.
+
+cp commands (copy files)
+>> perintah ini saya gunakan untuk menyalin file yang saya ingin salin.
+
+rm commands
+>> perintah ini saya gunakan untuk menghapus salinan file yang telah saya buat sebelumnya
