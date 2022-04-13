@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner userinput = new Scanner(System.in);
+
+        int alas, tinggi;
+        double luas;
+
+        System.out.println("\t Menghitung luas segitia \n");
+
+        System.out.print(" Inputkan alas   : ");
+        alas = userinput.nextInt();
+
+        System.out.print(" Inputkan tinggi : ");
+        tinggi = userinput.nextInt();
+
+        luas = (alas * tinggi) * 0.5;
+
+        System.out.println("\n Luas segitiga adalah : " + luas);
+    }
+    
+}
