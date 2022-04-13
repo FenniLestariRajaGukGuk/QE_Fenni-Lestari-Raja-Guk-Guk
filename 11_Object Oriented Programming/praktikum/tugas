@@ -1,0 +1,107 @@
+no.1 
+
+- menghitung luas segitiga
+code :
+import java.util.Scanner;
+public class luas_segitiga_intputs {
+    public static void main (String[] args) {
+        // deklarasi variabel
+        double alas, tinggi, luas;
+        // deklarasi input
+        Scanner scan = new Scanner(System.in);
+        // inisialisasi variabel
+        System.out.println("Masukan Panjang Alas:");
+        alas = scan.nextDouble();
+        System.out.println("Masukan Tinggi: ");
+        tinggi = scan.nextDouble();
+ 
+        // hitung luas
+        luas = 0.5 * alas * tinggi;
+ 
+        // cetak hasil
+        System.out.println("luas segitiga adalah: " + luas);
+    }
+}
+
+- menghitung luas persegi
+code :
+import java.util.Scanner;
+
+public class Menghitung_luas_persegi_panjang {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+
+        int panjang, lebar, luas;
+      
+        System.out.println("PROGRAM JAVA MENGHITUNG LUAS PERSEGI PANJANG : ");
+        System.out.println("-----------------------------------------------");
+
+        System.out.print("Masukan Panjang      : ");
+        panjang=input.nextInt();
+        System.out.print("Masukan Lebar        : ");
+        lebar=input.nextInt();
+        
+        luas=panjang*lebar;
+
+        System.out.println("Luas Persegi Panjang : "+luas);
+    }  
+}
+
+- menghitung luas persegi
+code :
+import java.util.Scanner;
+
+public class Menghitung_luas_persegi_panjang {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+
+        int panjang, lebar, luas;
+      
+        System.out.println("PROGRAM JAVA MENGHITUNG LUAS PERSEGI PANJANG : ");
+        System.out.println("-----------------------------------------------");
+
+        System.out.print("Masukan Panjang      : ");
+        panjang=input.nextInt();
+        System.out.print("Masukan Lebar        : ");
+        lebar=input.nextInt();
+        
+        luas=panjang*lebar;
+
+        System.out.println("Luas Persegi Panjang : "+luas);
+    }  
+}
+
+- menghitung keliling
+code :
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author USER
+ */
+public class KL_PersegiPanjang {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int panjang, lebar, keliling, luas;
+        
+        System.out.println("========== KELILING & LUAS PERSEGI PANJANG ==========\n\n");
+        System.out.print("Masukkan panjang persegi panjang   = ");
+        panjang = sc.nextInt();
+        System.out.print("Masukkan lebar persegi panjang     = ");
+        lebar = sc.nextInt();
+        System.out.println("");
+        
+        keliling = 2 * (panjang + lebar);
+        luas = panjang * lebar;
+        
+        System.out.println("Keliling Persegi Panjang           = " +keliling);
+        System.out.println("Luas Persegi Panjang               = " +luas);
+    }
+}
