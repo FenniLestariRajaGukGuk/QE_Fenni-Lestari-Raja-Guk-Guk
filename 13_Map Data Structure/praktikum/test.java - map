@@ -1,0 +1,70 @@
+no.1 (array merge)
+import java.util.Arrays;
+
+public class Concat {
+
+    public static void main(String[] args) {
+        int[] array1 = {kazuya, jin, lee};
+        int[] array2 = {kazuya, feng};
+
+        int length = array1.length + array2.length;
+
+        int[] result = new int[length];
+        int pos = 0;
+        for (int element : array1) {
+            result[pos] = element;
+            pos++;
+        }
+
+        for (int element : array2) {
+            result[pos] = element;
+            pos++;
+        }
+
+        System.out.println(Arrays.toString(result));
+    }
+}
+
+no.2 (array unique)
+
+import java.util.Arrays;
+import java.util.Scanner;
+class sum 
+{
+
+    public static int abs(int x) 
+    {
+        if(x<0)
+        {
+            return -1*x;
+        }
+        else
+        {
+            return x;
+        }
+    }
+    public static void main(String[] args)  
+    { 
+        Scanner sr = new Scanner(System.in);
+        int n = sr.nextInt();
+        int a[] = new int[n];
+        for(int i=0;i<n;i++)
+        {
+            a[i] = sr.nextInt();
+        }
+        int zero = 0; //separate case for zero
+        for(int i = 0; i < n; i++)
+        {
+        if(a[i] == 0)
+          {
+            if(zero > 0)
+              System.out.print(0+" ");
+            zero++;
+          }
+        else if(a[abs(a[i])] >= 0)  // we take the element's value as the index and change the sign of the element at that position
+        a[abs(a[i])] = - a[abs(a[i])];
+        else    //if we have duplicates then we will encounter a location whose value is negative
+         System.out.print(abs(a[i])+" ");
+       }
+    }
+}
