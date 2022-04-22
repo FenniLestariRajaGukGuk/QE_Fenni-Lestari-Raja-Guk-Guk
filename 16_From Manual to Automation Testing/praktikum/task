@@ -1,0 +1,22 @@
+task section 16
+
+Soal nomor 1
+
+jawab :
+
+Dari beberapa data di atas, merupakan waktu untuk menjalankan tes otomatisasi REST API 
+Mengotomatiskan pengujian menggunakan metode DELETE, POST, dan UPDATE membutuhkan waktu lebih lama 
+ daripada menggunakan metode GET karena hanya metode GET yang digunakan. 
+ Itu hanya menampilkan data dan tidak melakukan apa pun pada data yang ditampilkan seperti itu. 
+ sehingga membutuhkan lebih sedikit waktu saat melakukannya sedangkan beberapa input data berulang 
+ akan dilakukan perubahan yang  jelas membutuhkan waktu lama. Ini sedikit panjang.
+
+Soal nomor 2
+
+jawab :
+
+pada soal diatas ada beberapa hasil dari automation test yaitu :
+- petstore dengan satu test case yang passed
+- search dengan empat test case yang mana tiga diantaranya passed dan ssatu test case tidak dilakukan
+- shopping chart dengan dua test case yang mana satu passed dan satu lagi fail
+
