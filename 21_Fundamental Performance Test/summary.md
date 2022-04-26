@@ -40,8 +40,8 @@ d) Load testing
 
 e) Stress testing
 
-  metode ini untuk dilakukan untuk mengamati kemampuan dan kestabilan sistem pada saat kondisi ekstrem,dilakukan
-  bertahap menuju load normal,puncak dan melebihanya lalu turun untuk melihat process recovery.
+  metode ini untuk dilakukan untuk mengamati kemampuan dan kestabilan sistem pada saat kondisi ekstrem,
+  dilakukan bertahap menuju load normal,puncak dan melebihanya lalu turun untuk melihat process recovery.
 
 f) Spike Testing
 
